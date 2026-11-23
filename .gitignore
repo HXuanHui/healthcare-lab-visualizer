@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.egg-info/
+node_modules/
+dist/
+frontend/dist/
+*.pyc
+.env
+.DS_Store
+
+# 健保署匯出與個人圖表分組只留在本機，不進 GitHub 或 Cloudflare。
+檢驗檢查結果_*.html
+settings/chart-groups.json
